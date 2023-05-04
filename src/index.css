@@ -1,0 +1,22 @@
+@tailwind base;
+
+  @layer base {
+    body {
+      @apply bg-Cream flex justify-center items-center h-screen;
+    }
+    main {
+      @apply bg-white desktop:flex desktop:w-[600px] desktop:h-[450px] w-[343px] rounded-[10px] overflow-hidden h-[611px];
+    }
+    h1 {
+      @apply mt-[10px] desktop:mt-[20px] desktop:mb-[24px] mb-[14px] text-Display text-Gunmetal font-fraunces;
+    }
+    p {
+      @apply mb-[22px] desktop:mb-[29px] text-Body font-montserrat text-Aurometal-Saurus;
+    }
+    button {
+      @apply hover:bg-Deep-Aquamarine-HOVER gap-3 text-Button font-montserrat bg-Deep-Aquamarine text-Pure-White flex flex-row justify-center items-center w-full py-[15px] rounded-lg;
+    }
+  }
+
+@tailwind components;
+@tailwind utilities;
